@@ -29,7 +29,7 @@ $ docker-compose up -d
 - URL: http://localhost:52773/iris-tts/texttoaudio 
 - Body: raw
 
-5. Click send and get a response with a player to play the mp3 file:
+5. Click send and get a response with a player to play the mp3 file, like picture above
 
 
 # Credits
