@@ -26,14 +26,6 @@ XData UrlMap [ XMLNamespace = "http://www.intersystems.com/urlmap" ]
 </Routes>
 }
 
-ClassMethod Test() As %Status
-{
-    //call embedded python classmethod to get mp3 audio file from text
-    Set output = ##class(dc.tts.TTSEngine).GenerateAudioFileFromText("Hello world")
-
-    Write output
-}
-
 // Generate audio file from text
 
 ClassMethod GenerateAudioFromText() As %Status

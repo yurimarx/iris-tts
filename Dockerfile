@@ -11,7 +11,7 @@ RUN apt-get -y update \
     && apt-get install -y build-essential unzip pkg-config wget \
     && apt-get install -y python3-pip   
 
-# use pip3 (the python zpm) to install imageai and the imageai dependencies
+# use pip3 (the python zpm) to install gTTS dependencies
 RUN pip3 install --upgrade pip setuptools wheel
 RUN pip3 install --target /usr/irissys/mgr/python gTTS
 
